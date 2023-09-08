@@ -1,0 +1,15 @@
+{
+    "data_path": "./data/AllDistilBERTTok_NetCraftv2",
+    "pretrained_path": "./pretrain/distillbert",
+    "save_path": "./distillbert",
+    "run_name": "distillbert",
+    "epochs": 20,
+    "dropout": 0.5,
+    "weight_decay": 1e-3,
+    "batch_size": 64,
+    "lr": 5e-5,
+    "optimizer": "AdamW",
+    "scheduler": "polynomial",
+    "hidden_act": "relu",
+    "wandb_ids": null
+}

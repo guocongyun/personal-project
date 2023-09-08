@@ -1,0 +1,15 @@
+{
+    "data_path": "./data/AllBERTTok_NetCraftv2",
+    "pretrained_path": "./pretrain/bert",
+    "save_path": "./bert",
+    "run_name": "bert",
+    "epochs": 20,
+    "dropout": 0.5,
+    "weight_decay": 1e-3,
+    "batch_size": 64,
+    "lr": 5e-5,
+    "optimizer": "AdamW",
+    "scheduler": "polynomial",
+    "hidden_act": "relu",
+    "wandb_ids": null
+}
