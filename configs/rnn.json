@@ -1,0 +1,18 @@
+{
+    "data_path": "./data/RNNTok_Dataset",
+    "pretrained_path": "./pretrain/rnn",
+    "save_path": "./rnn",
+    "run_name": "rnn",
+    "model_type": "RNN",
+    "epochs": 20,
+    "dropout": 0.5,
+    "weight_decay": 1e-3,
+    "batch_size": 64,
+    "lr": 5e-5,
+    "optimizer": "AdamW",
+    "scheduler": "polynomial",
+    "hidden_act": "relu",
+    "rnn_hidden_dim": 256,
+    "rnn_layers": 2,
+    "wandb_ids": null
+}

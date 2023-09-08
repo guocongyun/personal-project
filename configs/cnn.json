@@ -1,0 +1,18 @@
+{
+    "data_path": "./data/CNNTok_Dataset",
+    "pretrained_path": "./pretrain/cnn",
+    "save_path": "./cnn",
+    "run_name": "cnn",
+    "model_type": "CNN",
+    "epochs": 20,
+    "dropout": 0.5,
+    "weight_decay": 1e-3,
+    "batch_size": 64,
+    "lr": 5e-5,
+    "optimizer": "AdamW",
+    "scheduler": "polynomial",
+    "hidden_act": "relu",
+    "filter_sizes": [3, 4, 5],
+    "num_filters": 100,
+    "wandb_ids": null
+}
