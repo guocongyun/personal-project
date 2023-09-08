@@ -1,0 +1,445 @@
+5	wetransfer
+6	benign
+8	cnn
+9	pharmacy
+10	absa
+11	amazon
+12	argenta
+13	dhl
+14	bank of america
+15	bnpparibas
+16	british telecom
+17	blockchain
+18	coinbase
+19	binance
+20	cibc
+21	dropbox
+22	apple computer
+23	netflix
+24	hmrevenuecustoms
+25	inggroup
+26	interac
+27	lacaixaes
+28	lloydsbank
+29	metrobank uk
+30	microsoft
+31	natwest
+32	paypal
+33	posteitaliane
+34	rbc
+35	santanderuk
+36	scotiabank
+37	standardchartered
+38	visa
+39	cryptocurrency
+40	spankki
+41	genericwebmail
+42	louis vuitton
+43	squarespace
+44	forbes
+45	handelsbanken
+46	phpshell
+47	defaced site
+48	nexi
+49	wellsfargo
+50	microsoft
+51	genericfakeshoppingwebsite
+52	tvlicensing
+53	creditagricole
+54	adidas
+55	ukgov
+56	swisspost
+57	caribbeanmercantilebank
+58	societegenerale
+59	cajarural
+60	bbva
+61	malware
+62	tdcanadatrust
+63	dubaiislamicbank
+64	emiratesnbd
+65	endesa
+66	suncorp
+67	chase
+68	bancodobrasil
+69	bnpparibasfortis
+70	etisalat
+71	docusign
+72	internationalcardservices
+73	linkedin
+74	health product
+75	sparkassede
+76	bnzconz
+78	ingnetherlands
+79	virginmedia
+80	americanexpress
+81	aol
+82	canadarevenueagency
+83	rakuten
+84	wibbank
+85	rayban
+86	creditmutueldebretagne
+87	nortonsupport
+88	firstnationalbankofomaha
+89	metrobank ph
+90	moncler
+91	irs
+92	bankinter
+93	inggermany
+94	boursorama
+95	godaddy
+96	sumitomomitsuibank
+97	governmentgateway
+98	unicreditbulbank
+99	mbna
+100	anpost
+111	barclaysuk
+113	megamillions
+114	arubaspa
+115	impotsgouvfr
+116	comptenickel
+117	driverandvehiclelicensingagency
+118	labanqpostale
+119	monzo
+120	navyfederalcreditunion
+121	nflshop
+122	nike
+123	hsbceub
+124	mtbank
+125	norton support
+126	kbc
+127	shopify
+128	eenetwork
+129	dhl package 
+130	lidl survey 
+131	edeka package 
+132	pandorajewellery
+133	laposte
+134	steam
+135	tsb
+136	standard
+137	bancosantander
+138	fnbsa
+139	infomaniak
+140	christianlouboutin
+141	tracktrace
+142	bredbanquepopulaire
+143	boi
+144	knab
+145	cashapp
+146	localbitcoins
+147	snsbank
+148	ingspain
+149	microsoft support
+150	suntrust
+151	creditdunord
+152	ebay
+153	dpdexpressparceldelivery
+154	halifax
+155	alphabankgreece
+156	morrisons survey 
+157	governmentofbelgium
+158	postnord
+159	uol
+160	nhlshop
+161	creditmutuelfr
+162	postoffice
+163	freefr
+164	discovercard
+165	canadagoose
+166	amazon survey 
+167	federalexpress
+168	google
+169	emschina
+170	orange
+171	adobe
+172	bancodeoro
+173	generic survey 
+174	csobbank
+175	domain slamming
+176	walmart
+177	usgovernment
+178	myetherwallet
+179	ugg
+180	australiangovernment
+181	ovh
+182	lassurancemaladie
+183	rabobank
+184	squareinc
+185	globalsources
+186	postnl
+187	sendgrid
+188	commonwealthbank
+189	rakutenbank
+190	bancaintesa
+191	fifththirdbank
+192	spotify
+193	garantibank
+194	banquepopulaire
+195	keybank
+196	elta
+197	xfinity
+198	unionbankph
+199	walmart survey 
+200	rackspace
+201	samsung survey 
+202	mercadopago
+203	netseu
+204	usaa
+205	cimbbank
+206	advanzia
+207	raiffeisenbank
+208	danskebank
+209	nedbankza
+210	royal mail
+211	instagram
+212	n26
+213	postmaster
+214	sageuklimited
+215	rakbank
+216	emirates post group
+217	unitedstatespostalservice
+218	chronopost
+219	att
+220	verizon
+221	aucklandsavingsbank
+222	regionsbank
+223	capitecbankza
+224	generic package 
+225	canadiantirebank
+226	pncbank
+227	firstbancorp
+228	tescobank
+229	caixabrazil
+230	ukgamblingcommissionunlicensed
+231	genericbankfraud
+232	coronavirus survey 
+233	qantas
+234	inmofactory
+235	mcafee support 
+236	adp
+237	sky survey 
+238	canadapost
+239	khbank
+240	post office package 
+241	intuit
+242	stratoag
+243	fortuneo
+244	facebook
+245	cooperativebank
+246	ledger
+247	matomo
+248	governmentofcanada
+249	bancodechile
+250	bancolombia
+251	abn
+252	intesasanpaolo
+253	ameritrade
+254	mediamarkt survey 
+255	zelis payments
+256	mkbbank
+257	westernunion
+258	ups
+259	lendingclub
+260	credem
+261	sars
+262	youtube
+263	bitcoin
+264	bancopichincha
+265	fjallraven
+266	123reg
+267	posten
+268	deutschekreditbankag
+269	optimum
+270	whatsapp
+271	citicorp
+272	csobbanksk
+273	myjcb
+274	citizens
+275	primark survey 
+276	counciltax
+277	thailand post
+278	ionos
+279	mercadolibre
+280	gymshark
+281	vodafone
+282	tmobile
+283	applecomputer support 
+284	hanseatic bank
+285	luno
+286	hsbcuk
+287	fake cryptocurrency platform
+288	huntingtonbank
+289	puppyfind
+290	ebaykleinanzeigen
+291	pancakeswap
+292	ems
+293	bancobpm
+294	maersk
+295	blacknightinternetsolutions
+296	itsme
+297	trustwallet
+298	wirex
+299	bankia
+300	telefonica
+301	salvatoreferragamo
+302	parcelforceworldwide
+303	sfexpress
+304	sfr
+305	hsbccanada
+306	mercadolivrebrazil
+307	bossmail
+308	singaporepost
+309	usps package 
+310	postbank de
+311	ingfrance
+312	aldi survey 
+313	rothys
+314	illinois secretary of state
+315	ptbankdanamon
+316	philips
+317	orsted
+318	yahoo
+319	ingbelgium
+320	deutschebank
+321	morrisons
+322	dbs
+323	asics
+324	mobilede
+325	bankoftokyomitsubishi
+326	eircom
+327	finanscert
+328	iinet
+329	intuitquickbooks
+330	jaccs
+331	bbt
+332	generic fca unauthorised firm
+333	nemid
+334	netflix brandinfringement
+335	payme
+336	aeonbank
+337	marktplaats
+338	creditunionwest
+339	2m
+340	unicreditgroup
+341	saudi post
+342	ups package 
+343	finn
+344	telstra
+345	ladadate
+346	aldi
+347	lidl
+348	etrade
+349	station
+350	byethost
+351	bancoagricola
+352	correos de mexico
+353	ourtime
+354	lego
+355	anz
+356	ingromania
+357	floa bank
+358	creditlyonnais
+359	bradesco
+360	goldengoose
+361	nhs
+362	australiapost
+363	dailymailandgeneraltrust
+364	doccle
+365	discord
+366	south african post office
+367	bancatransilvania
+368	aramex
+369	madeinchinacom
+370	zoosk
+371	mediamarkt
+372	alibaba
+373	ulsterbankireland
+374	permanenttsb
+375	validity
+376	banregio
+377	ibercaja
+378	tesco
+379	converse
+380	netbranch
+381	yodobashi
+382	cocacola
+383	nttdocomo
+384	eon
+385	digid
+386	hsbc
+387	charlesschwab
+388	volksbankenraiffeisenbanken
+389	netease
+390	fedex package 
+391	kasowitzbensontorres
+392	flirt
+393	alliancebankmalaysia
+394	etc
+395	wppl
+396	saisoncard
+397	post office south africa
+398	cathaypacific
+399	telegrammessenger
+400	volksbank
+401	bullboxer
+402	paypay
+403	softbank
+404	ctbcbank
+405	1and1
+406	poppankki
+407	cpanel
+408	fakegame
+409	mastercard
+410	transcash
+411	liberbank
+412	canada post package 
+413	cicbanque
+414	visecacardservices
+415	cielo
+416	transportationnorthwestcreditunion
+417	michaelkors
+418	exitocom
+419	micard
+420	nationalaustraliabank
+421	nate
+422	locaweb
+423	belastingdienst
+424	pota romn
+425	erstebank
+426	odnoklassnikiru
+427	shell
+428	earthlink
+429	mercari
+430	immowelt
+431	westpac
+432	banconacionaldecostarica
+433	crelan
+434	foreignandcommonwealthoffice
+435	dogechain
+436	winbank
+437	metamask
+438	zoho
+439	bnpparibascibeurope
+440	onecom
+441	alaskafcu
+442	bglgroup
+443	microsoftazure
+444	membersequitybank
+445	ruralbank
+446	bic camera
+447	aib
+448	homedepot
+449	zimbra
+450	stoneisland
+451	eika
+452	263net
+453	stone
+454	hinet
+455	novakbm
+456	boxuk
+457	masterconsultas
+458	bankofqueensland
+459	walletconnect
+460	caissedepargne
+461	alibabagroup
+462	novobanco
