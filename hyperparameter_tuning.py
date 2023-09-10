@@ -26,8 +26,7 @@ from models.distillbert import DistilBertForBinMultTokenKNN
 from trainer.tokenclass import get_keyphrase
 from evaluate.strf1 import evaluate
 from datasets import concatenate_datasets
-from trainer.binmultitokenknn import trainer
-from trainer.binmultitokenknn import trainer
+from trainer.binary import trainer
 from utils import *
 # sudo python3 -m torch.distributed.launch --nproc_per_node=8 --master_port 29522 trainer.py --local_rank -1 
 
@@ -49,44 +48,44 @@ from utils import *
 
 if __name__ == "__main__":
     
-    with open('./configs/distillbert.json', 'r') as file:
-        config = json.load(file)
-    set_seed(config["seed"])
-    default_config = config.copy()
-    for lr in [5e-6, 1e-5, 5e-5, 1e-4, 5e-4]:
-        config = default_config.copy()
-        config["lr"] = lr
-        config["run_name"] = f"distillbert_lr_{lr}"
-        trainer(**config)
+    # with open('./configs/distillbert.json', 'r') as file:
+    #     config = json.load(file)
+    # set_seed(config["seed"])
+    # default_config = config.copy()
+    # for lr in [5e-6, 1e-5, 5e-5, 1e-4, 5e-4]:
+    #     config = default_config.copy()
+    #     config["lr"] = lr
+    #     config["run_name"] = f"distillbert_lr_{lr}"
+    #     trainer(**config)
         
-    for weight_decay in [0, 1e-5, 1e-4, 1e-3, 1e-2]:
-        config = default_config.copy()
-        config["weight_decay"] = weight_decay
-        config["run_name"] = f"distillbert_weight_decay_{weight_decay}"
-        trainer(**config)
+    # for weight_decay in [0, 1e-5, 1e-4, 1e-3, 1e-2]:
+    #     config = default_config.copy()
+    #     config["weight_decay"] = weight_decay
+    #     config["run_name"] = f"distillbert_weight_decay_{weight_decay}"
+    #     trainer(**config)
         
-    for dropout in [0.1, 0.3, 0.5]:
-        config = default_config.copy()
-        config["dropout"] = dropout
-        config["run_name"] = f"distillbert_dropout_{dropout}"
-        trainer(**config)
+    # for dropout in [0.1, 0.3, 0.5]:
+    #     config = default_config.copy()
+    #     config["dropout"] = dropout
+    #     config["run_name"] = f"distillbert_dropout_{dropout}"
+    #     trainer(**config)
         
-    for optimizer in ["AdamW", "Adam", "Adagrad", "RMSprop", "SGD"]:
-        config = default_config.copy()
-        config["optimizer"] = optimizer
-        config["run_name"] = f"distillbert_optimizer_{optimizer}"
-        trainer(**config)
+    # for optimizer in ["AdamW", "Adam", "Adagrad", "RMSprop", "SGD"]:
+    #     config = default_config.copy()
+    #     config["optimizer"] = optimizer
+    #     config["run_name"] = f"distillbert_optimizer_{optimizer}"
+    #     trainer(**config)
         
-    for scheduler in ["polynomial", "cosine", "linear"]:
-        config = default_config.copy()
-        config["scheduler"] = scheduler
-        config["run_name"] = f"distillbert_scheduler_{scheduler}"
-        trainer(**config)
+    # for scheduler in ["polynomial", "cosine", "linear"]:
+    #     config = default_config.copy()
+    #     config["scheduler"] = scheduler
+    #     config["run_name"] = f"distillbert_scheduler_{scheduler}"
+    #     trainer(**config)
         
-    for hidden_act in ["reglu", "geglu", "relu", "silu", "gelu"]:
-        config = default_config.copy()
-        config["hidden_act"] = hidden_act
-        config["run_name"] = f"distillbert_hidden_act_{hidden_act}"
+    # for hidden_act in ["reglu", "geglu", "relu", "silu", "gelu"]:
+    #     config = default_config.copy()
+    #     config["hidden_act"] = hidden_act
+    #     config["run_name"] = f"distillbert_hidden_act_{hidden_act}"
         trainer(**config)
         
     with open('./configs/bert.json', 'r') as file:
@@ -167,5 +166,85 @@ if __name__ == "__main__":
         config = default_config.copy()
         config["hidden_act"] = hidden_act
         config["run_name"] = f"albert_hidden_act_{hidden_act}"
+        trainer(**config)
+
+    with open('./configs/rnn.json', 'r') as file:
+        config = json.load(file)
+    set_seed(config["seed"])
+    default_config = config.copy()
+    for lr in [5e-6, 1e-5, 5e-5, 1e-4, 5e-4]:
+        config = default_config.copy()
+        config["lr"] = lr
+        config["run_name"] = f"distillbert_lr_{lr}"
+        trainer(**config)
+        
+    for weight_decay in [0, 1e-5, 1e-4, 1e-3, 1e-2]:
+        config = default_config.copy()
+        config["weight_decay"] = weight_decay
+        config["run_name"] = f"bert_weight_decay_{weight_decay}"
+        trainer(**config)
+        
+    for dropout in [0.1, 0.3, 0.5]:
+        config = default_config.copy()
+        config["dropout"] = dropout
+        config["run_name"] = f"bert_dropout_{dropout}"
+        trainer(**config)
+        
+    for optimizer in ["AdamW", "Adam", "Adagrad", "RMSprop", "SGD"]:
+        config = default_config.copy()
+        config["optimizer"] = optimizer
+        config["run_name"] = f"bert_optimizer_{optimizer}"
+        trainer(**config)
+        
+    for scheduler in ["polynomial", "cosine", "linear"]:
+        config = default_config.copy()
+        config["scheduler"] = scheduler
+        config["run_name"] = f"bert_scheduler_{scheduler}"
+        trainer(**config)
+        
+    for hidden_act in ["reglu", "geglu", "relu", "silu", "gelu"]:
+        config = default_config.copy()
+        config["hidden_act"] = hidden_act
+        config["run_name"] = f"bert_hidden_act_{hidden_act}"
+        trainer(**config)
+
+    with open('./configs/cnn.json', 'r') as file:
+        config = json.load(file)
+    set_seed(config["seed"])
+    default_config = config.copy()
+    for lr in [5e-6, 1e-5, 5e-5, 1e-4, 5e-4]:
+        config = default_config.copy()
+        config["lr"] = lr
+        config["run_name"] = f"distillbert_lr_{lr}"
+        trainer(**config)
+        
+    for weight_decay in [0, 1e-5, 1e-4, 1e-3, 1e-2]:
+        config = default_config.copy()
+        config["weight_decay"] = weight_decay
+        config["run_name"] = f"bert_weight_decay_{weight_decay}"
+        trainer(**config)
+        
+    for dropout in [0.1, 0.3, 0.5]:
+        config = default_config.copy()
+        config["dropout"] = dropout
+        config["run_name"] = f"bert_dropout_{dropout}"
+        trainer(**config)
+        
+    for optimizer in ["AdamW", "Adam", "Adagrad", "RMSprop", "SGD"]:
+        config = default_config.copy()
+        config["optimizer"] = optimizer
+        config["run_name"] = f"bert_optimizer_{optimizer}"
+        trainer(**config)
+        
+    for scheduler in ["polynomial", "cosine", "linear"]:
+        config = default_config.copy()
+        config["scheduler"] = scheduler
+        config["run_name"] = f"bert_scheduler_{scheduler}"
+        trainer(**config)
+        
+    for hidden_act in ["reglu", "geglu", "relu", "silu", "gelu"]:
+        config = default_config.copy()
+        config["hidden_act"] = hidden_act
+        config["run_name"] = f"bert_hidden_act_{hidden_act}"
         trainer(**config)
         
